@@ -3,7 +3,7 @@
 A responsive and accessible profile card built using HTML, CSS, and vanilla JavaScript.
 
 Live Demo
-https://your-vercel-link.vercel.app
+https://test-profile-card-five.vercel.app/
 
 ##Repository
 https://github.com/nanchin26/test-profile-card
