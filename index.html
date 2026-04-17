@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main>
+    <article data-testid="test-profile-card" class="profile-card">
+
+      <!-- Avatar -->
+      <figure class="avatar-wrapper">
+        <img
+          data-testid="test-user-avatar"
+          src="spidey.webp"
+          alt="Profile avatar of Spidey"
+          class="avatar"
+        />
+      </figure>
+
+      <!-- Content -->
+      <div class="profile-content">
+
+        <header>
+          <h2 aria-label="UserName" data-testid="test-user-name">Spidey</h2>
+        </header>
+
+        <p data-testid="test-user-bio">
+          I'm a developer exploring how systems work on a normal day, building random projects and learning modern web technologies step by step. I'm either at home or in the sky.
+        </p>
+
+        <!-- Time -->
+        <p class="time">
+          Current time (ms):
+          <span data-testid="test-user-time" id="time" aria-live="polite"></span>
+        </p>
+
+        <!-- Hobbies -->
+        <section>
+          <h3>Hobbies</h3>
+          <ul data-testid="test-user-hobbies" class="hobbies">
+            <li>Building small web apps</li>
+            <li>Learning languages</li>
+            <li>Fighting crime..</li>
+            <li>Exploring electronics</li>
+            <li>Playing the piano</li>
+            <li>Watching movies</li>
+          </ul>
+        </section>
+
+        <!-- Dislikes -->
+        <section>
+          <h3>Dislikes</h3>
+          <ul data-testid="test-user-dislikes" class="dislikes">
+            <li>Terrible workspaces</li>
+            <li>Unclear documentation</li>
+            <li>Thanos</li>
+          </ul>
+        </section>
+
+        <!-- Social Links -->
+         <h3>Contact me on:</h3>
+        <nav aria-label="Social links">
+          <ul class="social-list" data-testid="test-user-social-links">
+            <li>
+              <a
+                data-testid="test-user-social-twitter"
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              ><img class="twitter-img" src="twitter.png" alt="Twitter profile link">
+              </a>
+            </li>
+
+            <li>
+              <a
+                data-testid="test-user-social-github"
+                href="https://github.com/nanchin26"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              <img class="github-img" src="download.png" alt="GitHub profile link">
+              </a>
+            </li>
+          </ul>
+        </navdata-testid=>
+
+      </div>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
