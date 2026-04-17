@@ -30,3 +30,21 @@ https://github.com/nanchin26/test-profile-card
 1. Clone the repository:
 ```bash
 git clone https://github.com/nanchin26/test-profile-card.git
+
+2. Navigate into the project:
+    cd test-profile-card
+3. Open index.html in your browser.
+         Notes / Testing
+- All required data-testid attributes are included
+- Time updates dynamically using setInterval
+- Layout adapts to different screen sizes
+- No external libraries or frameworks used
+
+Project Structure
+test-profile-card/
+│── images/
+│── index.html
+│── script.js
+│── styles.css
+
+Built by Nanchin
